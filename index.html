@@ -13,26 +13,33 @@
     <div id="page">
 
       <header id="header">
-        <div id="ident">
-          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="100%" height="auto" viewBox="-0.5 -0.5 290 212">
-            <!-- SVG data -->
-            <defs/><g><path d="M 65 205 L 145 5" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" pointer-events="stroke"/><path d="M 225 205 L 145 5" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" pointer-events="stroke"/><path d="M 225 205 L 225 5" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" pointer-events="stroke"/><path d="M 65 5 L 225 5" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" pointer-events="stroke"/><path d="M 65 105 L 225 105" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" pointer-events="stroke"/><path d="M 65 205 L 225 205" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" pointer-events="stroke"/><path d="M 225 105 Q 285 105 285 155 Q 285 205 225 205 Z" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" pointer-events="none"/><path d="M 5 5 Q 65 5 65 55 Q 65 105 5 105 Z" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" transform="rotate(-180,35,55)" pointer-events="none"/><path d="M 65 205 L 63.02 4.1" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" pointer-events="none"/><path d="M 145 125 L 225 5" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" pointer-events="none"/><path d="M 145 125 L 65 5" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" pointer-events="none"/><path d="M 145 205 L 145 125" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-miterlimit="10" pointer-events="none"/><rect x="65" y="5" width="160" height="200" fill="none" stroke="#FFFFFF" stroke-width="10" pointer-events="none"/></g>
-            <!-- Fallback PNG if SVG not supported -->
-            <image src="indent.png" xlink:href="" />
-          </svg>
-        </div>
         <a href="index.html">Ashley Harnett</a>
       </header>
 
-      <section id="links">
-
-        <h1>Links</h1>
-        <ul>
-          <li><a href="https://twitter.com/ashleyharnett" target="_blank">Twitter</a></li>
-          <li><a href="https://www.instagram.com/ashleyharnett/" target="_blank">Instagram</a></li>
-          <li><a href="https://www.linkedin.com/in/ashleylharnett/" target="_blank">LinkedIn</a></li>
-          <li><a href="https://github.com/ashleylharnett" target="_blank">GitHub</a></li>
-        </ul>
+      <section id="contact">
+        <h1>Contact me</h1>
+        <form action="https://formspree.io/f/xpzbjraw" method="POST">
+        
+            <div class="form-row">
+                <label for="form-name">Your name:</label>
+                <input type="text" name="name" id="form-name" placeholder="Your Name">
+            </div>
+            
+            <div class="form-row">
+                <label for="form-email">Your email:</label>
+                <input type="email" name="email" id="form-email" placeholder="Your email">
+            </div>
+            
+            <div class="form-row">
+                <label for="form-message">Your message:</label>
+                <textarea name="message" id="form-message" placeholder="Your message"></textarea>
+            </div>
+            
+            <div class="form-row">
+                <button type="submit">Send message</button>
+            </div>
+            
+        </form>
 
       </section>
 

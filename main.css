@@ -103,3 +103,38 @@ footer {
   font-size: 0.8em;
 
 }
+.block {
+    display: block;
+}
+.form-row {
+    display: block;
+    margin: 0 auto 20px 0;
+}
+.form-row > label {
+    display: none;
+}
+.form-row > input,
+.form-row > textarea {
+    display: block;
+    width: calc(100% - 20px );
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Cormorant Garamond', serif;
+    border: 1px solid #efefef;
+}
+.form-row > textarea  {
+    height: 200px;
+}
+.form-row > button {
+    padding: 10px 30px;
+    border: 1px solid #343434;
+    background: #343434;
+    color: #efefef;
+    font-size: 18px;
+    font-family: 'Cormorant Garamond', serif;
+    cursor: pointer;
+}
+.form-row > button:hover {
+    cursor: pointer;
+    background: #000;
+}
