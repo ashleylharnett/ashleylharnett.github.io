@@ -7,8 +7,8 @@ body {
 }
 
 body {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 18px;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-size: 15px;
 }
 
 #page {
@@ -31,16 +31,12 @@ article > p:first-of-type:first-letter {
 }
 
 h1 {
-  text-align: center;
-  font-weight: 400;
-  font-size: 1em;
-  text-transform: uppercase;
-  letter-spacing: 0.3em;
+  font-weight: 800;
+  font-size: 1.8em;
 }
 
 h2 {
   font-style: italic;
-  text-align: center;
   font-weight: 400;
   font-size: 1.8em;
 }
@@ -89,12 +85,18 @@ a:visited {
   text-align: center;
   margin-bottom: 50px;
   padding-bottom: 10px;
-  font-size: 2em;
+  font-size: 1.8em;
+  font-weight: 800;
 }
 #ident {
-  width: 100px;
-  margin: 0 auto;
-  padding: 10px 0 40px 0;
+  width: 150px;
+  height: 150px;
+  margin: 20px auto;
+  padding: 0;
+  border-radius: 75px;
+  border: 1px solid #ccc;
+  background: url('me.jpeg');
+  background-size: cover;
 }
 footer {
   text-align: center;
@@ -111,30 +113,40 @@ footer {
     margin: 0 auto 20px 0;
 }
 .form-row > label {
-    display: none;
 }
 .form-row > input,
 .form-row > textarea {
     display: block;
     width: calc(100% - 28px );
     padding: 10px;
-    font-size: 18px;
-    font-family: 'Cormorant Garamond', serif;
-    border: 4px solid #efefef;
+    font-size: 15px;
+    font-family: inherit;
+    border: 1px solid #ccc;
+    border-radius: 6px;
 }
 .form-row > textarea  {
     height: 200px;
 }
 .form-row > button {
     padding: 10px 30px;
-    border: 1px solid #343434;
-    background: #343434;
-    color: #efefef;
-    font-size: 18px;
-    font-family: 'Cormorant Garamond', serif;
+    border: 1px solid #0071e3;
+    background: #0071e3;
+    color: #fff;
+    font-size: 15px;
+    font-family: inherit;
     cursor: pointer;
+    border-radius: 6px;
 }
 .form-row > button:hover {
     cursor: pointer;
-    background: #000;
+    background: #0077ED;
+    border-color: #0077ED;
+}
+.sr-only {
+    position:absolute;
+    left:-10000px;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
 }
