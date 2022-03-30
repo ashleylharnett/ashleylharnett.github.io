@@ -116,11 +116,11 @@ footer {
 .form-row > input,
 .form-row > textarea {
     display: block;
-    width: calc(100% - 20px );
+    width: calc(100% - 28px );
     padding: 10px;
     font-size: 18px;
     font-family: 'Cormorant Garamond', serif;
-    border: 1px solid #efefef;
+    border: 4px solid #efefef;
 }
 .form-row > textarea  {
     height: 200px;
