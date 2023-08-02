@@ -11,12 +11,12 @@ Hello, I'm Ashley. I'm an IT consultant by day and a reader of strange literatur
             
 # Links
 
- * <a href="https://www.linkedin.com/in/ashleylharnett/" target="_blank" title="LinkedIn">LinkedIn</a>, for talking about work.</li>
- * <a href="https://github.com/ashleylharnett/" target="_blank" title="GitHub">GitHub</a>, for code.</li>
+ * <a href="https://www.linkedin.com/in/ashleylharnett/" target="_blank" title="LinkedIn">LinkedIn</a>, for talking about work.
+ * <a href="https://github.com/ashleylharnett/" target="_blank" title="GitHub">GitHub</a>, for code.
 
 # Work
 
-I'm currently working as an independent IT consultant, specialising in HE student systems. That's probably not what you're interested in but feel free to get in touch if you are.</p>
+I'm currently working as an independent IT consultant, specialising in HE student systems. That's probably not what you're interested in but feel free to get in touch if you are.
             
 # Education
 
