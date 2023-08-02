@@ -7,7 +7,7 @@ title: Home
 
 <img src="images/me.png" width="250px" class="right-align" alt="A headshot of me"/>
 
-Hello, I'm Ashley. I'm an IT consultant by day and a reader of strange literature by night. I don't have much else to share at the moment.
+Hello, I'm Ashley. I don't have much else to share at the moment.
             
 # Links
 
@@ -22,4 +22,3 @@ I'm currently working as an independent IT consultant, specialising in HE studen
 
  * <abbr title="Master of Arts">MA</abbr> English, The Open University (2020).
  * <abbr title="Bachelor of Arts with Honours">BA (Hons)</abbr> Ancient History &amp; Classical Archaeology, University of Warwick (2011).
- * Reading the dictionary cover-to-cover when I was at primary school (<em>circa.</em> 1997).
