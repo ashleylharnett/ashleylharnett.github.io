@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="{{ site.author }}">
+        <meta name="description" content="The personal website of Ashley Harnett.">
+        <title>{{ site.name }} | {{ page.title }}</title>
+        <link rel="stylesheet" href="{{ "css/main.css" | absolute_url }}">
+    </head>
+    <body>
+        <header>
+        
+            <!-- It always feels odd to use H1 for a name -->
+            <p class="site-title"><a href="{{ "index.html" | absolute_url }}" name="Home">Ashley Harnett</a></p>
+            <p class="site-description">{{ site.description }}</p>
+            
+        </header>
+        <main>
+        
+            {{ content }}
+
+        </main>
+        <footer>
+        
+            <p>{{ site.author }}.</p>
+            <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+            
+        </footer>
+    </body>
+</html>
