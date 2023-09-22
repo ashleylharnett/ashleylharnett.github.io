@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>404!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap" rel="stylesheet">
+    <style>
+      html,
+      body {
+        height: 100%;
+        background: #343434;
+        overflow: hidden;
+        font-family: 'IM Fell English', serif;
+        font-size: 30px;
+      }
+      .small {
+        font-size: 15px;
+      }
+      #ghost {
+        height: 400px;
+        width: 400px;
+        display: block;
+        background: url("ghost.gif") repeat center;
+        background-size: contain;
+        animation: run 20s;
+        animation-delay: 0.5s;
+        margin: 0 auto;
+      }
+      #error-window {
+        padding: 0px 100px;
+        text-align: center;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="error-window">
+      <div id="ghost"></div>
+      <p>The page you're looking for is no longer with us...</p>
+      <p class="small">Error 404: the requested URL was not found on the server.</p>
+    </div>
+  </body>
+</html>
