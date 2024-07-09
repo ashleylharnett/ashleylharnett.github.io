@@ -19,7 +19,7 @@
 }
 @media (prefers-color-scheme: dark) {
     :root {
-        --theme-background: rgb(19,1,1);
+        --theme-background: rgb(11, 11, 11);
         --theme-text: rgb(250, 245, 232);
         --theme-link: rgb(213, 60, 60);
         --theme-link-contrast: #fff;
