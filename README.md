@@ -1,1 +1,0 @@
-This is my personal website. This repo only contains the static HTML pages, the guts of the site are elsewhere.
