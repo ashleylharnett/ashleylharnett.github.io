@@ -1,6 +1,7 @@
 # Personal Website
 
 ```
+.
 ├── 404.html
 ├── CNAME
 ├── assets
